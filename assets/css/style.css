@@ -1,15 +1,6 @@
-body{
-  font-family: 'Open Sans', sans-serif;
-}
-
 body * {
-  border: 1px solid red;
-}
-
-h1, h2, h3 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700;
-  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  /* border: 1px solid red; */
 }
 
 header {
@@ -39,6 +30,16 @@ header hr {
   object-position: center;
 }
 
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.navbar h1 {
+  font-size: 2.5rem;
+}
+
 .soyyo {
   position: absolute;
   left: 50%;
@@ -48,8 +49,14 @@ header hr {
   text-align: center;
 }
 
-header span {
+.soyyo h1 {
+  font-size: 4.5rem;
+}
+
+.soyyo span {
+  font-family: 'Oswald', sans-serif;
   font-weight: 200;
+  font-size: 4.5rem;
   display: block;
   margin-top: 0.625rem;
 }
@@ -68,14 +75,12 @@ header span {
 }
 
 .descripcion .col-12{
-  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 1.5625rem;
   color: #373A3C;
 }
 
 .descripcion .col-6{
-  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1rem;
   color: #373A3C;
@@ -94,11 +99,11 @@ header span {
   font-family: 'Oswald', sans-serif;
   font-weight: 600;
   font-size: 1.5625rem;
+  margin-bottom: 0;
   color: #373A3C;
 }
 
 .experiencia span {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1.5625rem;
   color: #373A3C;
@@ -109,13 +114,8 @@ header span {
   margin: 0 auto;
 }
 
-.trabajos {
-  font-family: 'Open Sans', sans-serif;
-}
-
 .trabajos h2 {
   font-size: 3.25rem;
-  /* color: #FFFFFF; */
 }
 
 .trabajos h5 {
@@ -126,22 +126,7 @@ header span {
 }
 
 .trabajos p, .trabajos a {
-  /* font-family: 'Open Sans', sans-serif; */
   font-weight: 300;
   font-size: 1rem;
   color: #373A3C;
-}
-
-/* .modal-dialog {
-  width: 50%;
-  height: 10%;
-} */
-
-.txtTooltip {
-  /* background-color: #FFFFFF; */
-  color: #373A3C;
-}
-
-.tooltip-inner {
-  background-color: #FFFFFF;
 }

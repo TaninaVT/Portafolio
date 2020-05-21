@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,29 +8,33 @@
   <title>Portafolio Tania Venegas</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
-  ￼<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384- UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  ￼
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384- UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bd-principal">
+  <nav class="navbar navbar-expand-lg navbar-dark bd-principal fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#"><h1>T</h1></a>
+      <a class="navbar-brand" href="#">
+        <h1>T</h1>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-md-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#menuDescripcion">Sobre mi</a>
+            <a class="nav-link" href="#menuDescripcion" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" title="Como me describo en lo laboral">Sobre mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#menuExperiencia">Experiencia</a>
+            <a class="nav-link" href="#menuExperiencia" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" title="Roles que he desempeñado">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#menuTrabajos">Trabajos</a>
+            <a class="nav-link" href="#menuTrabajos" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" title="Trabajos que he construido">Trabajos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#menuContacto">Contacto</a>
+            <a class="nav-link" href="#menuContacto" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" title="Escríbeme si quieres contactarme">Contacto</a>
           </li>
         </ul>
       </div>
@@ -39,27 +44,28 @@
   <header class="text-white">
     <img src="assets/img/mifoto_portafolio.jpg" class="object-fit" alt="Tania Venegas">
     <div class="soyyo">
-      <h1><span>YO SOY</span></h1>
+      <span>YO SOY</span>
       <hr class="bg-white">
       <h1>TANIA</h1>
     </div>
   </header>
 
   <!-- QUIEN SOY -->
-  <section class="py-5" id="menuDescripcion">
+  <section class="py-5 d-none d-md-block d-lg-block d-xl-block" id="menuDescripcion">
     <div class="container descripcion">
       <div class="row">
         <div class="col-12 text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.
+          Ingeniero Civil Informático, especialista en auditoría TI, desarrollo de software y consultoría, en la industria financiera y retail.
         </div>
       </div>
       <hr class="bg-dark">
       <div class="row">
         <div class="col-6 text-left">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias voluptatibus nam culpa magnam soluta laborum minus, id porro earum cum deserunt, beatae quia, quae voluptas distinctio placeat? In, reiciendis, beatae.
+          En el ámbito de auditoría TI me he enfocado en el análisis y evaluación de procesos de negocio, sistemas e infraestructura tecnológica, identificando riesgos relevantes que afectan la continuidad operativa, vulnerabilidades de seguridad o
+          incumplimiento normativo. En la experiencia como ingeniero de software y consultor me he focalizado en el diseño y desarrollo de soluciones tecnológicas, incluyendo propuestas de negocio, mantención y soporte de sistemas.
         </div>
-        <div class="col-6 text-left">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias voluptatibus nam culpa magnam soluta laborum minus, id porro earum cum deserunt, beatae quia, quae voluptas distinctio placeat? In, reiciendis, beatae.
+        <div class="col-6 text-left">Dentro de mis competencias, me he destacado en mis trabajos por mi capacidad analítica, el cumplimiento de objetivos, construir trabajos de calidad y rapidez en el aprendizaje de nuevos procesos o tecnologías.
+          Como habilidades blandas, me caracterizo por mi alta empatía y buenas relaciones laborales, lo que me permite trabajar en equipo sin problemas en equipo, y llegar a acuerdos con clientes y jefatura.
         </div>
       </div>
     </div>
@@ -67,7 +73,7 @@
 
   <!-- EXPERIENCIA -->
   <section class="experiencia text-dark text-center my-5" id="menuExperiencia">
-    <div class="container py-5">
+    <div class="container">
       <div class="row">
         <div class="col-12">
           <h2>MI EXPERIENCIA</h2>
@@ -75,18 +81,18 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-4">
-          <i class="fas fa-desktop fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Desarrollo de Sw de distintos proyectos críticos" title="Ingeniero de Sw"></i>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <i class="fas fa-desktop fa-5x"></i>
           <p>Ingeniero de Software</p>
           <span>1997-2013</span>
         </div>
-        <div class="col-4">
-          <i class="fas fa-headphones fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Consultor para soluciones tecnológicas" title="Consultor"></i>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <i class="fas fa-headphones fa-5x"></i>
           <p>Consultor</p>
           <span>2013-2016</span>
         </div>
-        <div class="col-4">
-          <i class="fas fa-eye fa-5x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Auditorías de Tecnologías de Información en la banca" title="Auditor TI"></i>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <i class="fas fa-eye fa-5x"></i>
           <p>Auditor TI</p>
           <span>2016-2020</span>
         </div>
@@ -109,7 +115,7 @@
             <div class="card-body pb-1">
               <h5 class="card-title">Meet&Coffe</h5>
               <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-              <a href="#" class="btn btn-outline-dark mr-4 " data-toggle="modal" data-target="#meetcoffee">Ver más</a>
+              <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#meetcoffee">Ver más</a>
             </div>
           </div>
         </div>
@@ -121,7 +127,7 @@
             <div class="card-body pb-1">
               <h5 class="card-title">Iguana Page</h5>
               <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-              <a href="#" class="btn btn-outline-dark mr-4 " data-toggle="modal" data-target="#iguana">Ver más</a>
+              <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#iguana">Ver más</a>
             </div>
           </div>
         </div>
@@ -133,7 +139,7 @@
             <div class="card-body pb-1">
               <h5 class="card-title">Suricata</h5>
               <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-              <a href="#" class="btn btn-outline-dark mr-4 " data-toggle="modal" data-target="#suricata">Ver más</a>
+              <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#suricata">Ver más</a>
             </div>
           </div>
         </div>
@@ -145,7 +151,7 @@
             <div class="card-body pb-1">
               <h5 class="card-title">Cuppon</h5>
               <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-              <a href="#" class="btn btn-outline-dark mr-4 " data-toggle="modal" data-target="#cuppon">Ver más</a>
+              <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#cuppon">Ver más</a>
             </div>
           </div>
         </div>
@@ -157,7 +163,7 @@
             <div class="card-body pb-1">
               <h5 class="card-title">Ricomida</h5>
               <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-              <a href="#" class="btn btn-outline-dark mr-4 " data-toggle="modal" data-target="#ricomida">Ver más</a>
+              <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#ricomida">Ver más</a>
             </div>
           </div>
         </div>
@@ -165,12 +171,12 @@
         <!-- Marca -->
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
           <div class="card mt-0 mb-5">
-          <!-- <div class="card mt-xs-1 mt-sm-4 mt-md-4 mt-lg-5 mt-xl-5 mb-0"> -->
+            <!-- <div class="card mt-xs-1 mt-sm-4 mt-md-4 mt-lg-5 mt-xl-5 mb-0"> -->
             <img src="assets/img/dmark.png" class="card-img-top" alt="...">
             <div class="card-body pb-1">
               <h5 class="card-title">DMark</h5>
               <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
-              <a href="#" class="btn btn-outline-dark mr-4 " data-toggle="modal" data-target="#dmark">Ver más</a>
+              <a href="#" class="btn btn-outline-dark mr-4" data-toggle="modal" data-target="#dMark">Ver más</a>
             </div>
           </div>
         </div>
@@ -189,7 +195,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <img src="assets/img/post-1.jpg" class="my-3" alt="...">
+          <img src="assets/img/post-1.jpg" class="card-img-top my-3" alt="...">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni non esse delectus ipsum officia repellendus architecto sapiente. Asperiores quos minus hic magni tempore aliquid deserunt aperiam sint quasi, possimus, quibusdam!</p>
         </div>
         <div class="modal-footer">
@@ -208,7 +214,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <img src="assets/img/iguana-3.jpg" class="my-3" alt="...">
+          <img src="assets/img/iguana-3.jpg" class="card-img-top my-3" alt="...">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni non esse delectus ipsum officia repellendus architecto sapiente. Asperiores quos minus hic magni tempore aliquid deserunt aperiam sint quasi, possimus, quibusdam!</p>
         </div>
         <div class="modal-footer">
@@ -227,7 +233,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <img src="assets/img/desayunos.jpg" class="my-3" alt="...">
+          <img src="assets/img/desayunos.jpg" class="card-img-top my-3" alt="...">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni non esse delectus ipsum officia repellendus architecto sapiente. Asperiores quos minus hic magni tempore aliquid deserunt aperiam sint quasi, possimus, quibusdam!</p>
         </div>
         <div class="modal-footer">
@@ -246,7 +252,7 @@
           </button>
         </div>
         <div class="modal-body">
-          <img src="assets/img/cupon-1.jpg" class="my-3" alt="...">
+          <img src="assets/img/cupon-1.jpg" class="card-img-top my-3" alt="...">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni non esse delectus ipsum officia repellendus architecto sapiente. Asperiores quos minus hic magni tempore aliquid deserunt aperiam sint quasi, possimus, quibusdam!</p>
         </div>
         <div class="modal-footer">
@@ -265,7 +271,26 @@
           </button>
         </div>
         <div class="modal-body">
-          <img src="assets/img/slider-6.png" class="my-3" alt="...">
+          <img src="assets/img/slider-6.png" class="card-img-top my-3" alt="...">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni non esse delectus ipsum officia repellendus architecto sapiente. Asperiores quos minus hic magni tempore aliquid deserunt aperiam sint quasi, possimus, quibusdam!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="dMark" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="dMarkLabel">dMark</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="assets/img/dmark.png" class="card-img-top my-3" alt="...">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni non esse delectus ipsum officia repellendus architecto sapiente. Asperiores quos minus hic magni tempore aliquid deserunt aperiam sint quasi, possimus, quibusdam!</p>
         </div>
         <div class="modal-footer">
@@ -281,23 +306,47 @@
       <h2>CONTACTO</h2>
       <hr class="bg-dark">
     </div>
-    <div class="typeform-widget" data-url="https://taninavt.typeform.com/to/S0VaZF" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=S0VaZF&utm_source=typeform.com-01E8SWFPXZPP5T6VQD9PS5T1WV-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a>
+    <div class="typeform-widget" data-url="https://taninavt.typeform.com/to/S0VaZF" style="width: 100%; height: 500px;"></div>
+    <script>
+      (function() {
+        var qs, js, q, s, d = document,
+          gi = d.getElementById,
+          ce = d.createElement,
+          gt = d.getElementsByTagName,
+          id = "typef_orm",
+          b = "https://embed.typeform.com/";
+        if (!gi.call(d, id)) {
+          js = ce.call(d, "script");
+          js.id = id;
+          js.src = b + "embed.js";
+          q = gt.call(d, "script")[0];
+          q.parentNode.insertBefore(js, q)
+        }
+      })()
+    </script>
+    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a
+        href="https://admin.typeform.com/signup?utm_campaign=S0VaZF&utm_source=typeform.com-01E8SWFPXZPP5T6VQD9PS5T1WV-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999"
+        target="_blank">Typeform</a>
     </div>
   </section>
 
   <footer class="text-center text-white bd-principal">
     <div class="container py-5">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <h3>TANIA</h3>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <i class="fab fa-github-square fa-2x" data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='txtTooltip'>GitHub</span>"></i>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <h3>TANIA</h3>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <i class="fab fa-github-square fa-2x" data-toggle="tooltip" data-placement="top" title="GitHub"></i>
+          <i class="fab fa-linkedin fa-2x" data-toggle="tooltip" data-placement="top" title="Linkedin"></i>
+          <i class="fab fa-twitter-square fa-2x" data-toggle="tooltip" data-placement="top" title="Twitter"></i>
+          <i class="fab fa-facebook-square fa-2x" data-toggle="tooltip" data-placement="top" title="Facebook"></i>
+          <!-- <i class="fab fa-github-square fa-2x" data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='txtTooltip'>GitHub</span>"></i>
         <i class="fab fa-linkedin fa-2x" data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='txtTooltip'>Linkedin</span>"></i>
         <i class="fab fa-twitter-square fa-2x" data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='txtTooltip'>Twitter</span>"></i>
-        <i class="fab fa-facebook-square fa-2x" data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='txtTooltip'>Facebook</span>"></i>
+        <i class="fab fa-facebook-square fa-2x" data-toggle="tooltip" data-placement="top" data-html="true" title="<span class='txtTooltip'>Facebook</span>"></i> -->
+        </div>
       </div>
-    </div>
     </div>
   </footer>
 
@@ -309,4 +358,5 @@
   <script src="assets/js/scripts.js"></script>
 
 </body>
+
 </html>
